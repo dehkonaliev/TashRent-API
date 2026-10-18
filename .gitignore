@@ -1,0 +1,4 @@
+.env
+Plan.MD
+__pycache__/
+venv
