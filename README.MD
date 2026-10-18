@@ -161,8 +161,8 @@ Listings from Telegram come from public channels. Each one keeps a link to its s
 
 ## Roadmap
 
-See [docs/PLAN.md](docs/PLAN.md).
+Not given for now
 
 ## License
 
-MIT (change if needed)
+Maqsudbek Dehqonaliyev | Python Backend Developer
