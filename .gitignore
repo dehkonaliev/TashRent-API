@@ -1,4 +1,10 @@
-.env
-Plan.MD
+.venv/
+venv/
 __pycache__/
-venv
+.env
+*.session
+*.session-journal
+.pytest_cache/
+.ruff_cache/
+.fastapicloud/
+Plan.md
