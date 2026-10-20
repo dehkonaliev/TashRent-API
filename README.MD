@@ -28,7 +28,7 @@ Finding a flat in Tashkent usually means reading hundreds of messy Telegram ads.
 - [ ] Docker Compose setup, tests and CI
 
 ## Tech stack
-
+SOme
 | Area | Technology |
 |---|---|
 | Web framework | FastAPI |
