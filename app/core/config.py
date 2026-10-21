@@ -1,6 +1,7 @@
 from functools import lru_cache
 
 from pydantic_settings import BaseSettings, SettingsConfigDict
+from pydantic import MongoDsn, PostgresDsn, RedisDsn
 
 
 class Settings(BaseSettings):
@@ -9,9 +10,9 @@ class Settings(BaseSettings):
     app_name: str = "TashRent API"
     debug: bool = False
 
-    postgres_url: str
-    mongo_url: str
-    redis_url: str
+    postgres_url: PostgresDsn
+    mongo_url: MongoDsn
+    redis_url: RedisDsn
 
 
 @lru_cache
